@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "49155:49155"
+    environment:
+      POSTGRES_PASSWORD: postgrespw
+
+
